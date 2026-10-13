@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center; /* centro na horizontal */
+    align-items: center; /* centro na vertical */
+    min-height: 100vh; /* ocupa a tela toda */
+    margin: 0; /* remove a margem padrão */
+    gap: 10px; /* espaço entre os selects */
+    background-color: rgb(147, 230, 241);
+}
+
+
+
+
+#dia-label, #mes-label, #ano-label {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px transparent #b92525;
+}
+#dia-label:hover, #mes-label:hover, #ano-label:hover {
+    background-color: #7694e6;
+    color: rgb(17, 37, 218);
+    cursor: pointer;
+}
+
+#dia, #mes, #ano {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid #b92525;
+
+}
+
+#dia:hover, #mes:hover, #ano:hover {
+    background-color: #4d9ce6;
+    color: rgb(17, 37, 218);
+    cursor: pointer;
+}
